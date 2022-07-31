@@ -11,7 +11,6 @@ def main():
   Amazonの売れ筋ランキングページからカテゴリ別に商品名とURLをcsvに出力する。
   """
 
-
   try:
 
     time.sleep(3) 
@@ -55,7 +54,5 @@ def print_element(elem):
   else:
       print(type(elem), elem.name, elem.attrs.get('class'))
       
-
-
 if __name__ == '__main__':
   main()
